@@ -6,7 +6,7 @@ metadata:
     app: newdotnet-d-app
   namespace: pb
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: newdotnet-d-app
