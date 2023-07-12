@@ -4,7 +4,7 @@ metadata:
   name: newdotnet-d-app-deployment 
   labels:
     app: newdotnet-d-app
-  namespace: bhanu
+  namespace: pb
 spec:
   replicas: 2
   selector:
