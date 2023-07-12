@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: newdotnet-d-app
-        image: bhanuteja822/bhanu
+        image: bhanuteja822/bhanu:latest
         ports:
         - containerPort: 5000
