@@ -4,7 +4,7 @@ metadata:
   name: newdotnet-d-app-deployment 
   labels:
     app: newdotnet-d-app
-  namespace: deeksha
+  namespace: bhanu
 spec:
   replicas: 2
   selector:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: newdotnet-d-app
-        image: deekshamaddineni/dee
+        image: bhanuteja822 / bhanu
         ports:
         - containerPort: 5000
