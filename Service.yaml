@@ -7,7 +7,7 @@ spec:
   selector:
     app: newdotnet-d-app
   type: LoadBalancer
-  sessionaffinity:none  
+  sessionaffinity: none  
   ports:
     - protocol: TCP
       port: 80
