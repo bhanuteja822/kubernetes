@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: newdotnet-d-app
-  namespace: bhanu
+  namespace: pb
 spec:
   selector:
     app: newdotnet-d-app
